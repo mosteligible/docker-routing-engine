@@ -1,0 +1,6 @@
+.*~
+.*swp
+.*un~
+data/
+graphhopper/
+routing-engine/
