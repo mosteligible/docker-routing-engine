@@ -49,3 +49,5 @@ fi
 
 echo "Building docker image ${imagename}"
 docker build . -t "${imagename}"
+
+sudo rm -rf routing-engine
