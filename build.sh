@@ -34,7 +34,7 @@ if [ $# -gt 1 ] || [ "$1" == "--help" ]; then
 fi
 
 if [ ! -d "routing-engine" ]; then
-  echo "Cloning routime-engine"
+  echo "Cloning routing-engine"
   git clone https://github.com/mosteligible/routing-engine.git
 else
   echo "Pulling routing-engine"
